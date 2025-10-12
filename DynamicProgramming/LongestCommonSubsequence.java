@@ -60,6 +60,9 @@ public class LongestCommonSubsequence {
                 }
             }
         }
+        for(int row[]: dp){
+            System.out.println(Arrays.toString(row));
+        }
         return dp[m][n];
     }
     public static void main(String[] args) {
